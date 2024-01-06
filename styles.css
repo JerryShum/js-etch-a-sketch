@@ -11,10 +11,17 @@
 .grid-container {
     margin: 0 auto;
 
+
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 
     width: 800px;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
 }
 
 .grid-node {
