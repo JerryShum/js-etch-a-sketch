@@ -20,9 +20,11 @@ for (let i = 0; i < n; i++) {
         let nodeClone = gridNodeElement.cloneNode(true);
         nodeClone.className = "grid-node";
         clone.appendChild(nodeClone)
+
+        //* Hover Effect
         nodeClone.addEventListener('mouseover', () => nodeClone.classList.add('grid-node-active'))
+        // nodeClone.addEventListener('mouseout', () => nodeClone.classList.remove('grid-node-active'))
     }
 
 }
 
-// Hover Effect

@@ -8,9 +8,25 @@
     font-size: 48px;
 }
 
-.grid-container {
-    margin: 0 auto;
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.button-container {
+    text-align: center;
+}
+
+.grid-button {
+    padding: 20px;
+
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.grid-container {
+    margin: 40px auto;
 
     display: flex;
     justify-content: center;
@@ -28,8 +44,11 @@
     padding: 16px;
     border: 1px solid black;
     border-collapse: collapse;
+
+    background-color: white;
 }
 
 .grid-node-active {
     background-color: aqua;
+    transition-duration: 0.1s;
 }
